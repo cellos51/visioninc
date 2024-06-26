@@ -1,0 +1,9 @@
+"visioninc" 
+{
+	"base"		"base"
+	"title"		"Vision Inc."
+	"maps"		"^vi_"
+	"category"	"pve"
+	"menusystem"	"1"
+	"settings" {}
+}

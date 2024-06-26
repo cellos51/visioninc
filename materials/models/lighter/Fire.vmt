@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/lighter/Fire"
+	"$translucent" 1
+	"$nocull" 1
+    "$model" 1
+    "$selfillum" 1
+}
