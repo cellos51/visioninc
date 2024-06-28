@@ -4,6 +4,7 @@ AddCSLuaFile("cl_hud.lua")
 AddCSLuaFile("shared.lua")
 
 include("shared.lua")
+include("interact.lua")
 
 DEFINE_BASECLASS("gamemode_base")
 

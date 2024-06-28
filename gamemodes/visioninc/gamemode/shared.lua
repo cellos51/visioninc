@@ -1,4 +1,5 @@
 include("player_class/player_vision.lua")
+include("sound.lua")
 
 DEFINE_BASECLASS("gamemode_base")
 

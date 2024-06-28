@@ -1,0 +1,7 @@
+"VI.Intro"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_105db"
+	"volume"	"1.0"
+	"wave"		"map/intro.wav"
+}
