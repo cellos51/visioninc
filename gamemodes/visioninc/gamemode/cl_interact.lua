@@ -7,8 +7,9 @@ hook.Add("HUDPaint", "VisionInc_HighlightInteractable", function()
     local trace = ply:GetEyeTrace()
     if trace.HitPos:Distance(ply:GetPos()) < interactDistance and IsValid(trace.Entity) then
         if trace.Entity:GetClass() == "class C_BaseEntity" then
-            local ent = trace.Entity
-            halo.Add({ent}, Color(255, 255, 0), 2, 2, 2, true, true)
+            halo.Add({trace.Entity}, Color(255, 255, 0), 2, 2, 2, true, true)
+        elseif trace.Entity:GetClass() == "prop_dynamic" then
+            halo.Add({trace.Entity}, Color(255, 255, 0), 2, 2, 2, true, true)
         else
             return -- Don't do anything if the entity isn't interactable
         end 
